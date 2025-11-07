@@ -1,0 +1,21 @@
+nohup.out
+# Python 编译文件与缓存目录
+__pycache__/
+*.pyc
+
+# 日志文件及目录
+logs/
+nohup.out
+
+# Jupyter Notebook 缓存目录
+.ipynb_checkpoints/
+
+# 虚拟环境（若使用）
+venv/
+env/
+
+# 文本编辑器临时文件（如Vim）
+*.swp
+*.swo
+#检查点目录
+ckpts/
