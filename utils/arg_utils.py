@@ -88,4 +88,6 @@ def parse_args():
                         help='最多可以传输分片的次数')
     parser.add_argument('--simulated_comp_time', type=float, default=-1.0,
                         help='模拟的单步训练时间')
+    parser.add_argument("--tp_size", type=int, default=1,
+                    help="张量并行的大小。默认为1")
     return parser.parse_args()

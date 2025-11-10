@@ -46,6 +46,7 @@ run_experiment --dataset_name "$C4EN_PATH" --model_name "$LLAMA1B_PATH" \
     --N 10 \
     --algorithm "streaming" \
     --batch_size 4 \
+    --tp_size 2 \
     --effective_batch_size 256 --resume
     # \
     # --resume
